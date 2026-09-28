@@ -1,0 +1,73 @@
+# Gradle and Android build output (keep the Gradle wrapper versioned)
+.gradle/
+.kotlin/
+build/
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.hprof
+
+# Local SDK paths, IDE state and machine-specific configuration
+local.properties
+.idea/
+*.iml
+.vscode/
+.fleet/
+
+# Signing keys and credentials
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+key.properties
+keystore.properties
+signing.properties
+gradle-local.properties
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Personal data, exported backups and private media
+/docs/
+*.md
+!/README.md
+/private/
+/personal-data/
+/backups/
+/exports/
+/media/
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3-journal
+
+# Generated reports, scratch files and OS metadata
+/outputs/
+/tmp/
+/temp/
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep app resources, synthetic fixtures, Room schemas and Gradle wrapper files
+# in version control. Never put real personal data in those directories.

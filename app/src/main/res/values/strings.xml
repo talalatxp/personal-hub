@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Personal Hub</string>
+    <string name="base_ready">Base local preparada</string>
+    <string name="base_description">Tus datos se guardan en este dispositivo. Las funciones de entrenamiento llegarán en las siguientes entregas.</string>
+    <string name="storage_loading">Comprobando almacenamiento…</string>
+    <string name="storage_error">No se puede abrir el almacenamiento. Tus datos se conservan. Reintenta; si el problema continúa, conserva esta instalación para recuperar los datos.</string>
+    <string name="storage_retry">Reintentar</string>
+</resources>
